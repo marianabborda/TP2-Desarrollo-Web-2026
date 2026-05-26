@@ -9,13 +9,15 @@
 
 ## 🌐 Links del Proyecto
 
-- **🚀 Deploy en Vercel:** []()
-- **📂 Repositorio GitHub:** [[]()]
+- **🚀 Deploy en Vercel:** [tp-2-desarrollo-web-2026.vercel.app](tp-2-desarrollo-web-2026.vercel.app)
+- **📂 Repositorio GitHub:** [[https://github.com/marianabborda/TP2-Desarrollo-Web-2026.git](https://github.com/marianabborda/TP2-Desarrollo-Web-2026.git)]
 
 ---
+
 ## 👥 Equipo - Grupo 5
 
-### Integrantes 
+### Integrantes
+
 - Tomás Amsler - Link a GitHub: [https://github.com/TomasAmsler]
 - Rodrigo Berger - Link a GitHub: [https://github.com/rdbergeruser-stack]
 - Mariana Borda - Link a GitHub: [https://github.com/marianabborda]
@@ -23,6 +25,7 @@
 - Alejandra Vazquez - Link a GitHub: [https://github.com/AleVaz70]
 
 ---
+
 ## 📋 Descripción
 
 Nuestro proyecto es una **Single Page Application (SPA)** desarrollada en React que presenta a nuestro equipo de desarrollo. Este proyecto representa la **migración completa del TP1** (sitio web estático HTML/CSS/JS) a una arquitectura moderna de React, implementando componentes reutilizables, routing dinámico y consumo de APIs.
@@ -30,6 +33,7 @@ Nuestro proyecto es una **Single Page Application (SPA)** desarrollada en React 
 ### 🎯 Objetivo Principal
 
 Transformar el sitio web estático del TP1 en una SPA moderna utilizando React, mejorando la modularidad, escalabilidad y experiencia de usuario mediante:
+
 - Componentización efectiva
 - Gestión de estado con hooks
 - Integración de datos dinámicos (JSON local + API pública)
@@ -41,17 +45,18 @@ Transformar el sitio web estático del TP1 en una SPA moderna utilizando React, 
 
 ### ✨ Funcionalidades Implementadas
 
-| Característica | Descripción |
-|----------------|-------------|
-| **🛣️ SPA con React Router** | Navegación fluida sin recarga de páginas entre secciones |
-| **📱 Sidebar Responsive** | Menú lateral fijo con modo hamburguesa en móviles |
-| **🎨 Portales Individuales** | Portales de cada integrante del equipo |
-| **🌐 JSON y API Integrada** | Películas y Libros desde JSON local  y Música desde API pública iTunes Search API  |
-| **📐 Diseño Responsive** | Optimizado para desktop, tablet y móvil |
-| **🎯 Componentización** | Arquitectura modular con componentes reutilizables |
-| **📊 Diagramas Técnicos** | Visualización de la arquitectura del proyecto |
+| Característica               | Descripción                                                                      |
+| ---------------------------- | -------------------------------------------------------------------------------- |
+| **🛣️ SPA con React Router**  | Navegación fluida sin recarga de páginas entre secciones                         |
+| **📱 Sidebar Responsive**    | Menú lateral fijo con modo hamburguesa en móviles                                |
+| **🎨 Portales Individuales** | Portales de cada integrante del equipo                                           |
+| **🌐 JSON y API Integrada**  | Películas y Libros desde JSON local y Música desde API pública iTunes Search API |
+| **📐 Diseño Responsive**     | Optimizado para desktop, tablet y móvil                                          |
+| **🎯 Componentización**      | Arquitectura modular con componentes reutilizables                               |
+| **📊 Diagramas Técnicos**    | Visualización de la arquitectura del proyecto                                    |
 
 ---
+
 ## 🛠️ Stack Tecnológico
 
 - **⚛️ React 19** - Librería principal con hooks modernos.
@@ -72,7 +77,7 @@ Transformar el sitio web estático del TP1 en una SPA moderna utilizando React, 
 
 - `#0d0d1a` → Fondo principal, fondo Sidebar
 - `#111827` → Fondo secundario
-- `rgba(255, 255, 255, 0.03) / rgba(255, 255, 255, 0.05)` → Fondo de secciones 
+- `rgba(255, 255, 255, 0.03) / rgba(255, 255, 255, 0.05)` → Fondo de secciones
 
 **Textos**
 
@@ -84,17 +89,16 @@ Transformar el sitio web estático del TP1 en una SPA moderna utilizando React, 
 **Acentos**
 
 - `#c77dff` → Para estados hover, textos destacados y enlaces
-- `#7b2cbf` → Acento oscuro 
+- `#7b2cbf` → Acento oscuro
 - `#00d4ff` → Color asignado para los nombres de las secciones del Sidebar y títulos portales chicos
--  `rgba(0, 212, 255, 0.6)` 
--  `linear-gradient(135deg, #c77dff 0%, #9d4edd 50%, #7b2cbf 100%)`  → Degradado
+- `rgba(0, 212, 255, 0.6)`
+- `linear-gradient(135deg, #c77dff 0%, #9d4edd 50%, #7b2cbf 100%)` → Degradado
 
 **Bordes y detalles**
 
 - `#e0aaff / rgba(224, 170, 255, 0.15)` → Bordes de bloques
 - `#9d4edd` → Bordes del proyecto
 - `rgba(199, 125, 255, 0.45)` → Bordes en hover
-
 
 **Sombras**
 
@@ -131,7 +135,7 @@ tp2-grupo5-comd/
 │   │   ├── Sidebar.jsx
 │   │   ├── TimelineItem.css
 │   │   ├── TimelineItem.jsx
-│   │ 
+│   │
 │   │
 │   ├── 📁 data/
 │   │   │── libros.json
@@ -175,6 +179,7 @@ tp2-grupo5-comd/
 ├── README.md
 └── vite.config.js
 ```
+
 ---
 
 ## JavaScript/React – Funciones Dinámicas Implementadas y Componentes Clave
@@ -185,18 +190,20 @@ El proyecto fue desarrollado utilizando **React JS** y estructurado como una **S
 
 La aplicación incorpora distintas funcionalidades dinámicas como filtrado en tiempo real, consumo de API externa, paginación, lightbox interactivo, navegación responsive y renderizado dinámico de componentes.
 
-
 ## Funciones Dinámicas Implementadas
 
 ### 1. Filtrado dinámico de películas en tiempo real
 
 ### Archivo principal
+
 `src/pages/Peliculas.jsx`
 
 ### Funcionalidad implementada
+
 La sección de películas incorpora un sistema de búsqueda dinámica y filtrado por género utilizando los Hooks `useState`, `useEffect` y `useRef`.
 
 ### Características principales
+
 - Búsqueda instantánea por título o director.
 - Filtrado por categorías/géneros.
 - Actualización automática del contenido renderizado.
@@ -204,6 +211,7 @@ La sección de películas incorpora un sistema de búsqueda dinámica y filtrado
 - Uso de `ResizeObserver` para recalcular el layout dinámicamente.
 
 ### Tecnologías utilizadas
+
 - React Hooks (`useState`, `useEffect`, `useRef`)
 - Renderizado condicional
 - Manipulación dinámica del DOM
@@ -214,14 +222,12 @@ La sección de películas incorpora un sistema de búsqueda dinámica y filtrado
 const peliculasFiltradas = peliculasBase.filter((peli) => {
   const termino = busqueda.toLowerCase();
 
-  const coincideTexto = (
+  const coincideTexto =
     peli.titulo?.toLowerCase().includes(termino) ||
-    peli.director?.toLowerCase().includes(termino)
-  );
+    peli.director?.toLowerCase().includes(termino);
 
   const coincideGenero =
-    generoSeleccionado === "Todos" ||
-    peli.genero === generoSeleccionado;
+    generoSeleccionado === "Todos" || peli.genero === generoSeleccionado;
 
   return coincideTexto && coincideGenero;
 });
@@ -238,12 +244,15 @@ const peliculasFiltradas = peliculasBase.filter((peli) => {
 ### 2. Consumo de API externa con paginación
 
 ### Archivo principal
+
 `src/pages/Musica.jsx`
 
 ### Funcionalidad implementada
+
 La sección de música consume datos dinámicamente desde la API pública de iTunes mediante `fetch` y renderiza canciones en tiempo real.
 
 ### Características principales
+
 - Consumo de API REST.
 - Manejo de carga (`loading`) y errores.
 - Paginación dinámica.
@@ -251,6 +260,7 @@ La sección de música consume datos dinámicamente desde la API pública de iTu
 - Uso de asincronía con `async/await`.
 
 ### Tecnologías utilizadas
+
 - Fetch API
 - React Hooks
 - Manejo de estados
@@ -287,12 +297,15 @@ const cancionesPaginaActual = canciones.slice(
 ### 3. Lightbox interactivo para galería de libros
 
 ### Archivo principal
+
 `src/pages/LibrosGaleria.jsx`
 
 ### Funcionalidad implementada
+
 La galería de libros implementa un visualizador interactivo tipo Lightbox con navegación interna y control mediante teclado.
 
 ### Características principales
+
 - Apertura dinámica de imágenes.
 - Navegación entre libros.
 - Control mediante teclado.
@@ -301,6 +314,7 @@ La galería de libros implementa un visualizador interactivo tipo Lightbox con n
 - Cierre mediante tecla ESC.
 
 ### Tecnologías utilizadas
+
 - React Hooks
 - Eventos globales (`keydown`)
 - Renderizado condicional
@@ -318,8 +332,7 @@ useEffect(() => {
 
   window.addEventListener("keydown", handleKeyDown);
 
-  return () =>
-    window.removeEventListener("keydown", handleKeyDown);
+  return () => window.removeEventListener("keydown", handleKeyDown);
 }, [indexSelect]);
 ```
 
@@ -334,12 +347,15 @@ useEffect(() => {
 ### 4. Sidebar responsive con menú hamburguesa
 
 ### Archivo principal
+
 `src/components/Sidebar.jsx`
 
 ### Funcionalidad implementada
+
 El proyecto incorpora una barra lateral responsive adaptable a dispositivos móviles mediante un menú hamburguesa interactivo.
 
 ### Características principales
+
 - Apertura/cierre dinámico.
 - Overlay accesible.
 - Navegación SPA mediante `React Router`.
@@ -347,6 +363,7 @@ El proyecto incorpora una barra lateral responsive adaptable a dispositivos móv
 - Cierre automático en dispositivos móviles.
 
 ### Tecnologías utilizadas
+
 - React Router DOM
 - Renderizado condicional
 - Eventos dinámicos
@@ -379,12 +396,15 @@ const handleLinkClick = () => {
 ### 1. HeroSection
 
 ### Archivo
+
 `src/components/ui/HeroSection.jsx`
 
 ### Descripción
+
 Componente reutilizable utilizado como encabezado visual de las distintas páginas del proyecto.
 
 ### Funcionalidades
+
 - Título dinámico.
 - Subtítulo configurable.
 - Colores personalizables.
@@ -411,12 +431,15 @@ Componente reutilizable utilizado como encabezado visual de las distintas págin
 ### 2. CardGrid
 
 ### Archivo
+
 `src/components/ui/CardGrid.jsx`
 
 ### Descripción
+
 Componente reutilizable encargado de renderizar tarjetas dinámicamente mediante `map()`.
 
 ### Funcionalidades
+
 - Renderizado dinámico.
 - Navegación mediante enlaces.
 - Reutilización para distintas secciones.
@@ -440,12 +463,15 @@ Componente reutilizable encargado de renderizar tarjetas dinámicamente mediante
 ### 3. PortalBase
 
 ### Archivo
+
 `src/components/PortalBase.jsx`
 
 ### Descripción
+
 Componente base reutilizado por los portales individuales de cada integrante.
 
 ### Funcionalidades
+
 - Carrusel dinámico de proyectos.
 - Menú responsive.
 - Redes sociales.
@@ -453,6 +479,7 @@ Componente base reutilizado por los portales individuales de cada integrante.
 - Renderizado dinámico de información.
 
 ### Tecnologías utilizadas
+
 - useState
 - Componentización reutilizable
 - Renderizado dinámico
@@ -475,12 +502,15 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 ## 4. PeliculaCard, LibroCard y MusicaCard
 
 ### Ubicación
+
 `src/components/cards/`
 
 ### Descripción
+
 Conjunto de componentes reutilizables encargados de mostrar información multimedia de manera dinámica.
 
 ### Funcionalidades
+
 - Renderizado mediante props.
 - Tarjetas visuales reutilizables.
 - Diseño responsive.
@@ -556,9 +586,11 @@ La migración permitió transformar el proyecto en una **SPA (Single Page Applic
 ## 1. Componentización del Proyecto
 
 ### Antes
+
 La lógica y la interfaz estaban mezcladas en archivos HTML y JavaScript.
 
 ### Ahora
+
 El proyecto fue dividido en componentes reutilizables:
 
 - `HeroSection`
@@ -609,15 +641,17 @@ El archivo `main.jsx` configura `BrowserRouter`, mientras que `App.jsx` centrali
 ## 3. Uso de Hooks y Estados Dinámicos
 
 ### Antes
+
 La interacción se realizaba manipulando el DOM manualmente.
 
 ### Ahora
+
 Se utilizan Hooks modernos de React:
 
 ```jsx
-useState()
-useEffect()
-useRef()
+useState();
+useEffect();
+useRef();
 ```
 
 ### Mejoras obtenidas
@@ -638,9 +672,11 @@ useRef()
 ## 4. Consumo de APIs Externas
 
 ### Antes
+
 El contenido multimedia era estático.
 
 ### Ahora
+
 La sección musical consume información dinámica desde una API externa.
 
 ### Mejoras obtenidas
@@ -661,9 +697,11 @@ La sección musical consume información dinámica desde una API externa.
 ## 5. Mejora del Diseño Responsive
 
 ### Antes
+
 El diseño responsive era limitado.
 
 ### Ahora
+
 Se implementó una interfaz moderna adaptable a distintos dispositivos:
 
 - Sidebar responsive.
@@ -689,9 +727,11 @@ Se implementó una interfaz moderna adaptable a distintos dispositivos:
 ## 6. Optimización de la Estructura del Proyecto
 
 ### Antes
+
 Los archivos estaban organizados de forma monolítica.
 
 ### Ahora
+
 El proyecto fue reorganizado siguiendo buenas prácticas:
 
 ```txt
@@ -700,7 +740,7 @@ src/
  ├── data/
  ├── pages/
  ├── styles/
- 
+
 ```
 
 ### Beneficios obtenidos
@@ -720,17 +760,17 @@ src/
 
 ### Comparación General de la Evolución
 
-| Característica | Versión Inicial | Versión Actual React |
-|---|---|---|
-| Arquitectura | HTML tradicional | SPA con React |
-| Navegación | Multipágina | React Router |
-| Reutilización | Baja | Alta |
-| Componentes | No reutilizables | Reutilizables |
-| Estados dinámicos | JavaScript manual | Hooks de React |
-| APIs externas | No | Sí |
-| Responsive | Básico | Avanzado |
-| Escalabilidad | Limitada | Alta |
-| Organización | Monolítica | Modular |
+| Característica    | Versión Inicial   | Versión Actual React |
+| ----------------- | ----------------- | -------------------- |
+| Arquitectura      | HTML tradicional  | SPA con React        |
+| Navegación        | Multipágina       | React Router         |
+| Reutilización     | Baja              | Alta                 |
+| Componentes       | No reutilizables  | Reutilizables        |
+| Estados dinámicos | JavaScript manual | Hooks de React       |
+| APIs externas     | No                | Sí                   |
+| Responsive        | Básico            | Avanzado             |
+| Escalabilidad     | Limitada          | Alta                 |
+| Organización      | Monolítica        | Modular              |
 
 ---
 
@@ -753,18 +793,19 @@ Durante el desarrollo y evolución del proyecto se utilizaron distintas herramie
 
 ### Modelos y herramientas utilizadas
 
-| Herramienta | Uso principal |
-|---|---|
-| ChatGPT GPT-5.5 | Asistencia en programación, mejora de documentación, debugging, generación de avatares,  representación gráfica de árbol de renderizado y estructura de archivos|
-| Gemini 3.5 Flash | Apoyo en consultas técnicas |
-| Nano Banana (Gemini) | Generación de avatares
+| Herramienta          | Uso principal                                                                                                                                                   |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ChatGPT GPT-5.5      | Asistencia en programación, mejora de documentación, debugging, generación de avatares, representación gráfica de árbol de renderizado y estructura de archivos |
+| Gemini 3.5 Flash     | Apoyo en consultas técnicas                                                                                                                                     |
+| Nano Banana (Gemini) | Generación de avatares                                                                                                                                          |
+
 ---
 
 ## Uso de IA en Contenido y Código
 
 ### 1. Generación de contenido textual
 
-La IA fue utilizada para  mejorar distintos textos del proyecto, incluyendo:
+La IA fue utilizada para mejorar distintos textos del proyecto, incluyendo:
 
 - README del proyecto.
 - Explicaciones de componentes React.
@@ -807,8 +848,9 @@ Las herramientas de IA también fueron utilizadas para generar ideas gráficas l
 Nos pusimos de acuerdo en utilizar una imagen real con el siguiente prompt:
 
 ```txt
- "Recrea esta imagen con estilo anime o caricatura" 
+ "Recrea esta imagen con estilo anime o caricatura"
 ```
+
 ---
 
 ## Conclusión
@@ -824,7 +866,9 @@ La IA fue utilizada como herramienta de apoyo en programación y generación de 
 ## 🚦 Instalación y Uso
 
 ### Prerrequisitos
+
 Antes de ejecutar el proyecto es necesario tener instalado:
+
 - **Node.js** 19+
 - **npm (incluido con Node.js)**
 - **Visual Studio Code (recomendado)**
@@ -832,17 +876,19 @@ Antes de ejecutar el proyecto es necesario tener instalado:
 ### Pasos de Instalación
 
 1. **Clonar el repositorio**
+
 ```bash
 git clone [URL_DEL_REPOSITORIO]
 ```
 
 2. **Acceder a la carpeta del proyecto**
+
 ```bash
 cd tp2-grupo5-comd
 ```
 
 3. **Instalar dependencias**
-El proyecto utiliza React JS, Vite y la librería externa React Icons.
+   El proyecto utiliza React JS, Vite y la librería externa React Icons.
 
 ```bash
 npm install
@@ -855,15 +901,17 @@ npm install react-icons
 ```
 
 3. **Ejecutar en desarrollo**
+
 ```bash
 npm run dev
 ```
 
 4. **Abrir en el navegador**
+
 ```
 http://localhost:5173
 ```
+
 ---
 
 **Este proyecto fue desarrollado como parte del Trabajo Práctico 2 de la materia Desarrollo de Sistemas Web (Front End) - 2026.**
-
