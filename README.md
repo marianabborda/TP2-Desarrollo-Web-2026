@@ -9,7 +9,7 @@
 
 ## 🌐 Links del Proyecto
 
-- **🚀 Deploy en Vercel:** [tp-2-desarrollo-web-2026.vercel.app](tp-2-desarrollo-web-2026.vercel.app)
+- **🚀 Deploy en Vercel:** [https://tp-2-desarrollo-web-2026.vercel.app](https://tp-2-desarrollo-web-2026.vercel.app)
 - **📂 Repositorio GitHub:** [[https://github.com/marianabborda/TP2-Desarrollo-Web-2026.git](https://github.com/marianabborda/TP2-Desarrollo-Web-2026.git)]
 
 ---
@@ -878,7 +878,7 @@ Antes de ejecutar el proyecto es necesario tener instalado:
 1. **Clonar el repositorio**
 
 ```bash
-git clone [URL_DEL_REPOSITORIO]
+git clone [https://github.com/marianabborda/TP2-Desarrollo-Web-2026.git]
 ```
 
 2. **Acceder a la carpeta del proyecto**
