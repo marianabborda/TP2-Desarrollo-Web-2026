@@ -1,0 +1,166 @@
+{  
+  "libros": [
+    {   
+        "id": "1",    
+        "titulo": "Harry Potter y la Orden del Fénix",
+        "autor": "J. K. Rowling",
+        "sinopsis" : "Harry vuelve a Hogwarts, donde el Ministerio niega el regreso de Voldemort y pone a Umbridge en el colegio. Mientras se siente aislado, Harry sospecha que Voldemort lo está manipulando y busca un objeto para volver a tener poder.",
+        "portada": "https://http2.mlstatic.com/D_NQ_NP_882261-MLU72592257487_102023-O.webp"
+        
+    },
+    {   
+        "id": "2",    
+        "titulo": "Harry Potter y el cáliz de fuego",
+        "autor": "J. K. Rowling",
+        "sinopsis" : "Harry comienza su cuarto año en Hogwarts esperando un curso normal, pero una gran sorpresa lo enfrenta a desafíos peligrosos. Al superarlos, demuestra que está dejando de ser un niño y que está listo para lo que viene.",
+        "portada": "https://http2.mlstatic.com/D_NQ_NP_908101-MLU72591480185_102023-O.webp"
+    },
+    
+    {   
+        "id": "3",     
+        "titulo": "Harry Potter y el legado maldito",
+        "autor": "J. K. Rowling",
+        "sinopsis" : "Narra la aventura de Albus Potter y Scorpius Malfoy mientras intentan cambiar el pasado mediante viajes en el tiempo. Sus decisiones ponen en peligro el futuro del mundo mágico y su relación con sus familias.",
+       "portada": "https://http2.mlstatic.com/D_NQ_NP_2X_987099-MLA46900297399_072021-F.webp"
+        
+    },
+    
+    {   
+        "id": "4",    
+        "titulo": "Anne, la de Tejados Verdes",
+        "autor": "Lucy M. Montgomery",
+        "sinopsis" : "Sigue la vida de Anne Shirley, una niña huérfana llena de imaginación que llega por error a una granja en Tejados Verdes. Con su carisma y creatividad, cambia la vida de todos a su alrededor.",
+        "portada": "https://http2.mlstatic.com/D_NQ_NP_928593-MLA42926491838_072020-O.webp"
+        
+    },
+    
+    {   
+        "id": "5",    
+        "titulo": "Monstruo de colores",
+        "autor": "Anna Llenas", 
+        "sinopsis" : "Cuenta la historia de un monstruo que tiene sus emociones todas mezcladas y aprende a identificarlas y ordenarlas. A través de colores y sentimientos, descubre cómo entender mejor lo que siente.",
+         "portada": "https://http2.mlstatic.com/D_NQ_NP_943745-MLU72590202863_102023-O.webp"
+    },
+      
+
+    {   
+        "id": "6",    
+        "titulo": "La Felicidad. Más allá de la ilusión",
+        "autor": "Gabriel Rolón",
+        "sinopsis" : "Como imposible y como quimera, como fin y también como imperativo, la idea de la felicidad nos interpela más que nunca en los tiempos que corren. '¿Cómo ser felices?', esa sentencia  que nos sobrevuela como mandato del mundo moderno se impuso para encandilarnos y hacernos perder de vista aquella que debería ser la pregunta nodal: '¿Qué es la felicidad?'" ,
+       "portada": "https://http2.mlstatic.com/D_NQ_NP_758457-MLU75135654463_032024-O.webp"
+    },
+    {   
+        "id": "7",    
+        "titulo": "El Aleph",
+        "autor": "Jorge Luis Borges",
+        "sinopsis" : "El libro reúne cuentos fantásticos de Jorge Luis Borges sobre temas como el tiempo, la identidad y lo infinito. En “El Aleph”, un punto permite ver todos los lugares y momentos del universo al mismo tiempo.",
+        "portada": "https://acdn-us.mitiendanube.com/stores/004/088/117/products/526276-89085513a3228322a417401963950459-1024-1024.webp"
+    },
+    {   
+        "id": "8",    
+        "titulo": "El principito",
+        "autor": "Antoine De Saint Exupery",
+        "sinopsis" : "Un niño proveniente del asteroide B 612 viaja por varios planetas y llega a la Tierra, donde conoce a un piloto. A través de sus encuentros, reflexiona sobre la vida y critica la forma de ver el mundo de los adultos.",
+         "portada": "https://acdn-us.mitiendanube.com/stores/004/088/117/products/731132-473191e476f6d09a8017487182309344-1024-1024.webp"
+        
+    },
+    {   
+        "id": "9",    
+        "titulo": "Legendary",
+        "autor": "Stephanie Garber",
+        "sinopsis" : "Tella vuelve a Caraval para descubrir la identidad de Legend y saldar una deuda peligrosa. Enfrentando un juego más arriesgado que nunca, deberá ganar para salvarlo todo o perder incluso su vida.",
+        "portada": "https://acdn-us.mitiendanube.com/stores/004/088/117/products/719933-9215cf82dfabb2abb917276586229282-1024-1024.webp"
+    },
+    
+    {   
+        "id": "10",    
+        "titulo": "Las garras del águila",
+        "autor": "Karin Smirnoff",
+        "sinopsis" : "El frío norte de Suecia se convertirá en el escenario en el que Lisbeth Salander, Mikael Blomkvist y la indomable Svala se enfrentarán a una red de corrupción amparada en la explotación de energías renovables y combatirán la violencia contra las mujeres, en medio del ambiente político en el que asciende la ultraderecha.",
+          "portada": "https://http2.mlstatic.com/D_NQ_NP_943099-MLU73140278881_112023-O.webp"
+        
+    },
+    {   
+        "id": "11",    
+        "titulo": "El extranjero",
+        "autor": "Albert Camus",
+        "sinopsis" : "El Extranjero' retrata la existencia en Argel de Meursault, un joven oficinista. La rutina y personajes ambiguos llenan sus días, inmutables ante eventos como el fallecimiento de su madre o la relación con una mujer. Un homicidio impulsivo lleva a Meursault a enfrentarse a una sociedad que lo juzga no solo por su acción, sino por su indiferencia ante la vida.",
+       "portada": "https://http2.mlstatic.com/D_NQ_NP_617981-MLU72521939978_102023-O.webp"
+    },
+    {   
+        "id": "12",      
+        "titulo": "El viento conoce mi nombre",
+        "autor": "Isabel Allende",  
+        "sinopsis" : "En 1938, un niño judío llamado Samuel Adler es enviado desde la Austria nazi a Inglaterra tras perder a su familia. Lleva consigo su violín y crece marcado por la soledad y la incertidumbre.",
+        "portada": "https://http2.mlstatic.com/D_NQ_NP_664330-MLU73795195268_012024-O.webp"
+    },
+  
+    {   
+        "id": "13",    
+        "titulo": "Escribir Para Sanar",
+        "autor": "Silvia Adela Kohan",
+        "sinopsis" : "Es un libro de escritura terapéutica que propone 135 ejercicios para ayudar a expresar emociones, superar conflictos internos y conocerse mejor. Silvia Adela Kohan muestra cómo la escritura puede convertirse en una herramienta de sanación, creatividad y crecimiento personal.",
+        "portada": "https://http2.mlstatic.com/D_NQ_NP_868901-MLA44173101432_112020-O.webp"
+    },
+    {   
+        "id": "14",    
+        "titulo": "Registros Akashicos: Sanación del Alma",
+        "autor": "Claudia Federica Zosi",
+        "sinopsis" : "Trata sobre cómo los Registros Akáshicos pueden ayudar al autoconocimiento, la sanación emocional y el crecimiento espiritual.",
+        "portada": "https://http2.mlstatic.com/D_NQ_NP_644541-MLM45575301818_042021-O.webp"
+        
+    },
+    {   
+        "id": "15",    
+        "titulo": "Pideselo al Universo",
+        "autor": "Barbel Mohr",
+        "sinopsis" :"Enseña, de forma simple y práctica, cómo usar el pensamiento positivo y la visualización para pedir deseos al “universo” y atraer cambios positivos en la vida.",
+        "portada": "https://http2.mlstatic.com/D_NQ_NP_650880-MLA27527018462_062018-O.webp"
+        
+    },
+   
+    {   
+        "id": "16",    
+        "titulo": "Hamlet",
+        "autor": "William Shakespeare",
+        "sinopsis" :"Hamlet es una tragedia de William Shakespeare sobre un príncipe que busca vengar la muerte de su padre, asesinado por su tío, lo que termina provocando una serie de tragedias.",
+        "portada": "https://acdn-us.mitiendanube.com/stores/004/088/117/products/13901-c63052b7eb9e70fad317284903980151-1024-1024.webp"
+    },
+
+    {   
+        "id": "17",     
+        "nombre": "El pasajero 23",
+        "autor": "Sebastian Fitzek",
+        "sinopsis" : "Martin Schwartz, un psicólogo policial marcado por la desaparición de su familia en un crucero, recibe pistas que lo llevan a volver al barco donde ocurrió la tragedia. Allí descubre una posible conexión entre ese caso y la reciente desaparición de una niña.",
+        "portada": "https://acdn-us.mitiendanube.com/stores/004/088/117/products/657849-ed5b99d598cd2baf3517310754906952-1024-1024.webp"
+        
+    },
+    {   
+        "id": "18",        
+        "titulo": "Inocentes",
+        "autor": "John Grisham",    
+        "sinopsis" : "El libro cuenta casos reales de personas que fueron condenadas injustamente y pasaron años en prisión. A través de estas historias, se muestran errores del sistema judicial y las luchas para demostrar su inocencia y lograr su liberación.",
+        "portada": "https://acdn-us.mitiendanube.com/stores/004/088/117/products/730492-66f0afb8272ea1472317479371013869-1024-1024.webp"
+        
+    },
+
+     {   
+        "id": "19",        
+        "titulo": "El psicoanalista",
+        "autor": "John Katzenbach",    
+        "sinopsis" : "El psicoanalista Frederick Starks recibe una amenaza anónima que lo obliga a descubrir quién lo está persiguiendo en pocos días. Si no lo logra, su vida y la de sus seres queridos estarán en peligro, en una intensa historia de suspenso psicológico.",
+        "portada": "https://acdn-us.mitiendanube.com/stores/004/088/117/products/690644-8985829f4a04fa109c17400718484160-1024-1024.webp"
+        
+    },
+
+     {   
+        "id": "20",        
+        "titulo": "Hábitos Atómicos",
+        "autor": "James Clear",    
+        "sinopsis" : "Es un libro que explica cómo pequeños cambios diarios pueden generar grandes resultados en la vida. El autor enseña cómo formar buenos hábitos, eliminar los malos y mejorar la productividad a través de sistemas simples y constantes.",
+        "portada": "https://acdn-us.mitiendanube.com/stores/004/088/117/products/703633-97b0c133d38775aaa617274736967074-1024-1024.webp"
+        
+    }
+]
+}
