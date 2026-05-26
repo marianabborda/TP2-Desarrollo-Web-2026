@@ -869,7 +869,7 @@ La IA fue utilizada como herramienta de apoyo en programación y generación de 
 
 Antes de ejecutar el proyecto es necesario tener instalado:
 
-- **Node.js** 19+
+- **Node.js** 18 o superior
 - **npm (incluido con Node.js)**
 - **Visual Studio Code (recomendado)**
 
