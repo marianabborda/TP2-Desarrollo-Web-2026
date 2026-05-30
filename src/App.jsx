@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom"; // ✅ Sumamos useLocation para controlar el cambio de página
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import Bitacora from "./pages/Bitacora";
@@ -14,6 +14,17 @@ import Musica from "./pages/Musica";
 import Peliculas from "./pages/Peliculas";
 import Libros from "./pages/LibrosGaleria";
 import "./App.css";
+
+// Devuelve la ventana al punto (0,0) superior cada vez que cambia de ruta
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 export default function App() {
   const [sidebarOpen, setSidebarOpen] = useState(window.innerWidth > 768);
@@ -31,6 +42,9 @@ export default function App() {
 
   return (
     <div className={`app ${sidebarOpen ? "sidebar-open" : ""}`}>
+      {/* Colocamos el reseteador aquí dentro para que escuche los saltos de las rutas */}
+      <ScrollToTop />
+
       <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
 
       <main

@@ -31,7 +31,7 @@ export default function PortalBase({
       {/* --- HEADER Y NAVEGACIÓN FIJA --- */}
       <header>
         <div className="logo" style={{ fontWeight: 'bold', color: 'var(--acento)' }}>
-          {nombre}.dev
+          {nombre}
         </div>
         <button className="nav-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           ☰
